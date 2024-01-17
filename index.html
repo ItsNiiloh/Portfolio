@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      function onButtonClick(e) {
+        const navLinks = document.querySelector(".navinha");
+        e.name = e.name === "menu" ? "close" : "menu";
+        console.log(navLinks);
+        e.name === "close"
+          ? (navLinks.classList.remove("top-[-100%]"),
+            navLinks.classList.add("top-[9%]"))
+          : (navLinks.classList.remove("top-[9%]"),
+            navLinks.classList.add("top-[-100%]"));
+      }
+    </script>
+    <script>
+      const tween = KUTE.fromTo(
+        "#blob",
+        { path: "#blob" },
+        { path: "#blob2" },
+        { repeat: 999, duration: 5000, yoyo: true }
+      );
+      tween.start();
+    </script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500;600;700&display=swap");
+    </style>
+  </body>
+</html>
