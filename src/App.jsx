@@ -6,10 +6,18 @@ import AboutSection from "./components/aboutSection/aboutSection.jsx";
 import ProjectSection from "./components/projectsSection/projectSection.jsx";
 import EmailSection from "./components/emailSection.jsx";
 import Footer from "./components/footer.jsx";
+import { useTranslation } from "react-i18next";
+
 
 function App() {
+  const { i18n } = useTranslation("global");
   const [isActive, setIsActive] = useState(false);
   const menuRef = useRef();
+
+  useEffect(() => {
+    const lng = navigator.language;
+    i18n.changeLanguage(lng);
+  }, []);
 
   useEffect(() => {
     const handleClickOutside = (event) => {

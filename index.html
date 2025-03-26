@@ -2,33 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/images/logo.png" />
+    <link rel="icon" type="image" href="/images/logo.png" />
+    <link rel="preload" as="image" href="/images/me.jpg"/>
+    <link rel="preload" as="image" href="/images/hero.jpg"/>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap");
+    </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mon Portfolio</title>
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
+    <meta name="description" content="Portfolio de José Ferreira" />
+    <meta name="theme-color" content="#181818" />
+    <title>Portfolio - José</title>
+
   </head>
   <body>
     <div id="root"></div>
-
     <script type="module" src="/src/main.jsx"></script>
-    <script>
-      function onButtonClick(e) {
-        const navLinks = document.querySelector(".navinha");
-        e.name = e.name === "menu" ? "close" : "menu";
-        console.log(navLinks);
-        e.name === "close"
-          ? (navLinks.classList.remove("top-[-100%]"),
-            navLinks.classList.add("top-[9%]"))
-          : (navLinks.classList.remove("top-[9%]"),
-            navLinks.classList.add("top-[-100%]"));
-      }
-    </script>
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500;600;700&display=swap");
-    </style>
   </body>
 </html>

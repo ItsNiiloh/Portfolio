@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareGithub } from "react-icons/fa6";
 import { IoMail } from "react-icons/io5";
+import { useTranslation } from "react-i18next";
 
 const perspective = {
   initial: {
@@ -42,50 +43,52 @@ const socials = {
   },
 };
 
-const navItems = [
-  {
-    id: 0,
-    name: "Home",
-    number: "-00",
-    to: "heroSection",
-    spy: true,
-    smooth: true,
-    offset: -1600,
-    duration: 1500,
-  },
-  {
-    id: 1,
-    name: "About",
-    number: "-01",
-    to: "aboutSection",
-    spy: true,
-    smooth: true,
-    offset: -595,
-    duration: 750,
-  },
-  {
-    id: 2,
-    name: "Projets",
-    number: "-02",
-    to: "projectSection",
-    spy: true,
-    smooth: true,
-    offset: -350,
-    duration: 750,
-  },
-  {
-    id: 3,
-    name: "Contact",
-    number: "-03",
-    to: "contactSection",
-    spy: true,
-    smooth: true,
-    offset: 100,
-    duration: 1500,
-  },
-];
 
 const NavItems = () => {
+  const { t } = useTranslation("global");
+  const navItems = [
+    {
+      id: 0,
+      name: t("navbar.home"),
+      number: "-00",
+      to: "heroSection",
+      spy: true,
+      smooth: true,
+      offset: -1600,
+      duration: 1500,
+    },
+    {
+      id: 1,
+      name: t("navbar.about"),
+      number: "-01",
+      to: "aboutSection",
+      spy: true,
+      smooth: true,
+      offset: -595,
+      duration: 750,
+    },
+    {
+      id: 2,
+      name: t("navbar.projects"),
+      number: "-02",
+      to: "projectSection",
+      spy: true,
+      smooth: true,
+      offset: -350,
+      duration: 750,
+    },
+    {
+      id: 3,
+      name: t("navbar.contact"),
+      number: "-03",
+      to: "contactSection",
+      spy: true,
+      smooth: true,
+      offset: 100,
+      duration: 1500,
+    },
+  ];
+
   return (
     <div>
       <div className="pt-24 px-10 pb-12 h-full box-border flex flex-col gap-3">
@@ -122,14 +125,14 @@ const NavItems = () => {
             exit="exit"
             className="flex justify-center items-center gap-16 absolute bottom-2 left-0 right-0 w-full h-24 border-t border-[#2d2d2d] border-opacity-50"
           >
-            <a href="https://www.linkedin.com/in/joseferreira-" target="_blank">
+            <a href="https://www.linkedin.com/in/joseferreira-" target="_blank" aria-label="My LinkedIn">
               <FaLinkedin className="text-[52px] text-[#bbbbbb] hover:text-[#04FE94]" />
             </a>
             <a href="https://www.github.com/ItsNiiloh" target="_blank">
-              <FaSquareGithub className="text-[52px] text-[#bbbbbb] hover:text-[#04FE94]" />
+              <FaSquareGithub className="text-[52px] text-[#bbbbbb] hover:text-[#04FE94]" aria-label="My Github"/>
             </a>
             <a href="mailto:zeferreira1458@hotmail.com" target="_blank">
-              <IoMail className="text-[52px] text-[#bbbbbb] hover:text-[#04FE94]" />
+              <IoMail className="text-[52px] text-[#bbbbbb] hover:text-[#04FE94]" aria-label="My Email"/>
             </a>
           </motion.div>
         </div>

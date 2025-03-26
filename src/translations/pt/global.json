@@ -1,0 +1,59 @@
+{
+  "navbar": {
+    "open": "Menu",
+    "close": "Fechar",
+    "home": "Início",
+    "about": "Sobre",
+    "projects": "Projetos",
+    "contact": "Contacto"
+  },
+  "heroSection": {
+    "message": "Me contactar!"
+  },
+  "aboutSection": {
+    "description": "Sou um jovem apaixonado por novas tecnologias, computação e programação. As minhas linguagens de programação favoritas são JavaScript, React, Python, Node.js, Express, SQL, HTML, CSS e Git. Em 2021, descobri a minha paixão pela programação ao realizar alguns projectos simples com HTML/CSS. No entanto, foi em 2023 que decidi me dedicar totalmente ao mundo da programação e, desde então, tenho aprendido muitas novas tecnologias.",
+    "experience": {
+      "title": "Experiência",
+      "FWD": {
+        "description": "Curso de Developer Full-Stack (Aprendizagem)"
+      }
+    },
+    "education": {
+      "title": "Educação",
+      "school_1": "Universidade Pasquale Paoli",
+      "degree_1": "2021/2022 | Licenciatura em Economia e Gestão",
+      "school_2": "Liceu Jean Paul de Rocca-Serra",
+      "degree_2": "2017/2018 | Diploma do Ensino Secundário - Ciências e Tecnologias de Gestão"
+    }
+  },
+  "projectsSection": {
+    "title_1": "Meus",
+    "title_2": "Projetos",
+    "projects": {
+      "project_1": {
+        "title": "Discord Youtube Bot",
+        "description": "Um bot do Discord desenvolvido em Python para reproduzir áudio de vídeos do YouTube"
+      },
+      "project_2": {
+        "title": "CS50 Finance",
+        "description": "Clone de uma aplicação de investimento desenvolvida com Python e Flask"
+      },
+      "project_3": {
+        "title": "Tic Tac Toe",
+        "description": "Projeto de grupo realizado em JavaScript e HTML/CSS. A minha tarefa era manipular o DOM"
+      }
+    }
+  },
+  "emailSection": {
+    "title": "Contacte-me!",
+    "description": "Estou atualmente à procura de um estágio para a minha formação FullStack Web Developer na 3W Academy.",
+    "links": "Meus links ",
+    "form": {
+      "name": "Nome",
+      "email": "Email",
+      "message": "Mensagem",
+      "button": "Enviar!",
+      "success": "Mensagem enviada! 🚀"
+    }
+  }
+}

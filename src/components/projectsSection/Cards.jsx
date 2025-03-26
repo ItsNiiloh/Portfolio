@@ -23,8 +23,8 @@ const ProjectCards = ({ imgUrl, title, description, gitUrl }) => {
           </a>
         </div>
       </div>
-      <div className="text-white bg-[#202020] rounded-b-2xl py-3 px-4 h-32">
-        <h5 className="md:text-xl font-bold mb-2">{title}</h5>
+      <div className="text-white bg-[#202020] rounded-b-2xl py-3 px-4 md:h-32">
+        <h2 className="md:text-xl font-bold mb-2">{title}</h2>
         <p className="text-[#bbbbbb]">{description}</p>
       </div>
     </div>

@@ -1,0 +1,59 @@
+{
+  "navbar": {
+    "open": "Menu",
+    "close": "Fermer",
+    "home": "Accueil",
+    "about": "À propos",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "heroSection": {
+    "message": "Me contacter!"
+  },
+  "aboutSection": {
+    "description": "Je suis un jeune passionné par les nouvelles technologies, l'informatique et la programmation. Mes langages de programmation préférés sont JavaScript, React, Python, Node.js, Express, SQL, HTML, CSS et Git. En 2021, j'ai découvert ma passion pour le codage en réalisant quelques projets simples avec HTML/CSS. Cependant, c'est en 2023 que j'ai décidé de plonger pleinement dans le monde du code, depuis lors, j'ai appris de nombreuses nouvelles technologies.",
+    "experience": {
+      "title": "Expérience",
+      "FWD": {
+        "description": "Formation Développeur Full-Stack (Alternance)"
+      }
+    },
+    "education": {
+      "title": "Éducation",
+      "school_1": "Université Pasquale Paoli",
+      "degree_1": "2021/2022 | Licence Economie et Gestion",
+      "school_2": "Lycée Jean Paul de Rocca-Serra",
+      "degree_2": "2017/2018 | BAC-Sciences et Technologies du management et de la Gestion"
+    }
+  },
+  "projectsSection": {
+    "title_1": "Mes",
+    "title_2": "Projets",
+    "projects": {
+      "project_1": {
+        "title": "Discord Youtube Bot",
+        "description": "Un bot Discord développé en Python pour lire l'audio des vidéos YouTube"
+      },
+      "project_2": {
+        "title": "CS50 Finance",
+        "description": "Clone d'une application d'investissement développée avec Python et Flask"
+      },
+      "project_3": {
+        "title": "Tic Tac Toe",
+        "description": "Projet de groupe réalisé avec JavaScript et HTML/CSS. Ma tâche consistait à manipuler le DOM"
+      }
+    }
+  },
+  "emailSection": {
+    "title": "Contactez-moi!",
+    "description": "Je suis actuellement à la recherche d'un stage pour ma formation FullStack Web Developer à la 3W Academy.",
+    "links": "Mes liens ",
+    "form": {
+      "name": "Votre nom",
+      "email": "Adresse courriel",
+      "message": "Votre message",
+      "button": "Envoyer!",
+      "success": "Message envoyé! 🚀"
+    }
+  }
+}

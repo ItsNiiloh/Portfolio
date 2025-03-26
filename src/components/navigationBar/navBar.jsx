@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence, useScroll, useMotionValueEvent,} from "framer-motion";
 import NavItems from "./navItems";
+import { useTranslation } from "react-i18next";
 
 const variants = {
   open: {
@@ -20,12 +21,13 @@ const variants = {
 };
 
 const NavBar = React.forwardRef(({ isActive, setIsActive }, ref) => {
+  const { t } = useTranslation("global");
   const { scrollY } = useScroll();
   const [hidden, setHidden] = useState(false);
 
   useMotionValueEvent(scrollY, "change", (latestScrollY) => {
     const prevScrollY = scrollY.getPrevious();
-    if (latestScrollY > prevScrollY && latestScrollY > 100) setHidden(true);
+    if (latestScrollY > prevScrollY && latestScrollY > 150) setHidden(true);
     else setHidden(false);
   });
 
@@ -58,11 +60,11 @@ const NavBar = React.forwardRef(({ isActive, setIsActive }, ref) => {
           transition={{ duration: 0.5, ease: [0.76, 0, 0.24, 1] }}
         >
           <div className="h-full w-full flex justify-center items-center bg-white uppercase text-black text-lg font-semibold tracking-wide group">
-            <NavbarText label={"Menu"} />
+            <NavbarText label={t("navbar.open")} />
           </div>
 
           <div className="h-full w-full flex justify-center items-center bg-black uppercase text-white text-lg font-semibold tracking-wide group">
-            <NavbarText label={"Close"} />
+            <NavbarText label={t("navbar.close")} />
           </div>
         </motion.div>
       </nav>

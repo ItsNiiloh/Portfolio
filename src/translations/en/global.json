@@ -1,0 +1,59 @@
+{
+  "navbar": {
+    "open": "Menu",
+    "close": "Close",
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "heroSection": {
+    "message": "Contact me!"
+  },
+  "aboutSection": {
+    "description": "I'm a young man with a passion for new technologies, computing and programming. My favorite programming languages are JavaScript, React, Python, Node.js, Express, SQL, HTML, CSS, and Git. In 2021, I discovered my passion for coding by completing some simple projects with HTML/CSS. However, it was in 2023 that I decided to fully dive into the world of coding, and since then, I have learned many new technologies.",
+    "experience": {
+      "title": "Experience",
+      "FWD": {
+        "description": "Developer Full-Stack Course (Apprenticeship)"
+      }
+    },
+    "education": {
+      "title": "Education",
+      "school_1": "Pasquale Paoli University",
+      "degree_1": "2021/2022 | Bachelor's Degree in Economics and Management",
+      "school_2": "Jean Paul de Rocca-Serra High School",
+      "degree_2": "2017/2018 | High-School Diploma - Sciences and Technologies of Management"
+    }
+  },
+  "projectsSection": {
+    "title_1": "My",
+    "title_2": "Projects",
+    "projects": {
+      "project_1": {
+        "title": "Discord Youtube Bot",
+        "description": "A Discord bot developed in Python to play audio from YouTube videos"
+      },
+      "project_2": {
+        "title": "CS50 Finance",
+        "description": "Clone of an investment application developed with Python and Flask"
+      },
+      "project_3": {
+        "title": "Tic Tac Toe",
+        "description": "Group project using JavaScript and HTML/CSS. My task was to manipulate the DOM"
+      }
+    }
+  },
+  "emailSection": {
+    "title": "Contact me!",
+    "description": "I'm currently looking for an internship for my FullStack Web Developer training at 3W Academy.",
+    "links": "My links ",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Your message",
+      "button": "Send!",
+      "success": "Message sent! 🚀"
+    }
+  }
+}
