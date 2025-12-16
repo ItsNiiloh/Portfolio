@@ -90,7 +90,7 @@ const HeroSection = () => {
             <img
               className="rounded-[4rem] shadow-xl absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               
-              src="./images/me.jpg"
+              src="../images/me.jpg"
               alt="Profile photo"
             />
           </div>
