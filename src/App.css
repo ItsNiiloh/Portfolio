@@ -34,6 +34,10 @@ span {
 }
 
 .meIMG {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   background-image:
     url('./images/me.jpg');
 }
