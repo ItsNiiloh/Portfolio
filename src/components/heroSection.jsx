@@ -83,7 +83,7 @@ function HeroSection() {
               <img
                 className="rounded-[4rem] shadow-xl absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
 
-                src={process.env.PUBLIC_URL + "/images/me.jpg"}
+                src={`${import.meta.env.BASE_URL}images/me.jpg`}
                 alt="Profile photo" />
             </div>
           </div>
