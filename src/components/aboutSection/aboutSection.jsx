@@ -114,7 +114,7 @@ const AboutSection = () => {
             <div className="flex justify-center items-center">
               <img
                 className="hidden md:flex z-10 py-[95px]"
-                src="Portfolio/images/skills.webp"
+                src="/images/skills.webp"
                 alt="skills"
                 width={550}
                 height={550}
