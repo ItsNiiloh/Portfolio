@@ -84,7 +84,7 @@ function HeroSection() {
                 className="meIMG rounded-[4rem] shadow-xl absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
 
                 
-                alt="Profile photo" />
+                 />
             </div>
           </div>
         </div>
