@@ -3,7 +3,7 @@ import TabButton from "./TabButton";
 import { TypeAnimation } from "react-type-animation";
 import { motion, useInView, useAnimation } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import imgSkills from "../images/skills.webp";
+import imgSkills from "/images/skills.webp";
 
 const AboutSection = () => {
   const { t, i18n } = useTranslation("global");

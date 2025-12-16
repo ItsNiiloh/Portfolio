@@ -7,7 +7,7 @@ import JoseFerreiraCV_PT from "../assets/JoseFerreiraCV_PT.pdf";
 import { FiPaperclip } from "react-icons/fi";
 import { useTranslation } from 'react-i18next';
 import i18next from "i18next";
-import imgMe from "../images/me.jpg";
+import imgMe from "/images/me.jpg";
 
 
 function HeroSection() {
