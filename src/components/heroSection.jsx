@@ -7,8 +7,6 @@ import JoseFerreiraCV_PT from "../assets/JoseFerreiraCV_PT.pdf";
 import { FiPaperclip } from "react-icons/fi";
 import { useTranslation } from 'react-i18next';
 import i18next from "i18next";
-import imgMe from "/images/me.jpg";
-
 
 function HeroSection() {
   const renderSentence = (sentence) => {
@@ -85,7 +83,7 @@ function HeroSection() {
               <img
                 className="rounded-[4rem] shadow-xl absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
 
-                src={imgMe}
+                src="Portfolio/images/me.jpg"
                 alt="Profile photo" />
             </div>
           </div>
