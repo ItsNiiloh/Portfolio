@@ -33,16 +33,6 @@ span {
     url('./images/hero.jpg');
 }
 
-.meIMG {
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image:
-    url('./images/me.jpg');
-}
-
 .Toastify__progress-bar-theme--dark {
   background-color: #04FE94;
   color: #04FE94

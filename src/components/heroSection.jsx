@@ -81,10 +81,10 @@ function HeroSection() {
           <div className="col-span-5 place-self-center ml-4 my-8 lg:mt-0">
             <div className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] lg:w-[500px] lg:h-[500px] relative">
               <img
-                className="meIMG rounded-[4rem] shadow-xl absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                className="rounded-[4rem] shadow-xl absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
 
-                
-                 />
+                src={`/Portfolio/images/me.jpg`}
+                alt="Profile photo" />
             </div>
           </div>
         </div>
