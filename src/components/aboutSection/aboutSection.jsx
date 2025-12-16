@@ -3,6 +3,7 @@ import TabButton from "./TabButton";
 import { TypeAnimation } from "react-type-animation";
 import { motion, useInView, useAnimation } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import imgSkills from "/images/skills.webp";
 
 const AboutSection = () => {
   const { t, i18n } = useTranslation("global");
@@ -114,7 +115,7 @@ const AboutSection = () => {
             <div className="flex justify-center items-center">
               <img
                 className="hidden md:flex z-10 py-[95px]"
-                src="./images/skills.webp"
+                src={imgSkills}
                 alt="skills"
                 width={550}
                 height={550}
