@@ -40,5 +40,5 @@ export default defineConfig({
       },
     }),
   ],
-  base: "jose-portfolio",
+  base: "Portfolio",
 });
