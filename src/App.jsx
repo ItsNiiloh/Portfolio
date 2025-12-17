@@ -35,8 +35,9 @@ function App() {
 
   return (
     <>
+    <link rel="preload" href="./images/hero.jpg" as="image" fetchpriority="high" />
       <NavBar isActive={isActive} setIsActive={setIsActive} ref={menuRef} />
-      <div className="heroBG z-0">
+      <div className="heroBG z-0" src ={"./images/hero.jpg"}>
         <HeroSection />
       </div>
       <div className="container mt-24 mx-auto xl:px-12 z-0">
