@@ -1,5 +1,5 @@
 import "./App.css";
-import React, { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 import NavBar from "./components/navigationBar/navBar.jsx";
 import HeroSection from "./components/heroSection";
 import AboutSection from "./components/aboutSection/aboutSection.jsx";

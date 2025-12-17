@@ -164,7 +164,7 @@ const AboutSection = () => {
             </div>
             <img
               id="aboutSection"
-              src="/images/01.svg"
+              src="./images/01.svg"
               alt=""
               className="absolute -right-10 -bottom-24 h-72 xl:h-96 z-0"
             />

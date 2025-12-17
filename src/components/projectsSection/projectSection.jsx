@@ -84,7 +84,7 @@ const ProjectSection = () => {
             ))}
           </div>
           <img
-            src="/images/02.svg"
+            src="./images/02.svg"
             alt=""
             className="absolute -right-10 -bottom-24 h-72 xl:h-96 z-0"
           />
