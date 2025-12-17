@@ -36,7 +36,7 @@ function App() {
   return (
     <>
       <NavBar isActive={isActive} setIsActive={setIsActive} ref={menuRef} />
-      <div className="heroBG z-0" src ={"./images/hero.jpg"}>
+      <div className="heroBG z-0">
         <HeroSection />
       </div>
       <div className="container mt-24 mx-auto xl:px-12 z-0">
